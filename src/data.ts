@@ -1,0 +1,122 @@
+export const tickets = [
+  {
+    "ticketID": "TCKT-1001",
+    "title": "Unable to log in to portal",
+    "description": "User reports being unable to access the employee portal using valid credentials.",
+    "status": "open",
+    "priority": "high",
+    "createdAt": "2025-07-20T10:15:00Z",
+    "updatedAt": "2025-07-25T08:45:00Z",
+    "assignedTo": "Alice Perera",
+    "requestedBy": "john.doe@example.com",
+    "department": "IT Support"
+  },
+  {
+    "ticketID": "TCKT-1002",
+    "title": "Email not syncing on mobile",
+    "description": "The user's company email is not syncing on their mobile device.",
+    "status": "in-progress",
+    "priority": "medium",
+    "createdAt": "2025-07-22T12:30:00Z",
+    "updatedAt": "2025-07-25T09:00:00Z",
+    "assignedTo": "Ruwan Silva",
+    "requestedBy": "linda.wijesinghe@example.com",
+    "department": "Technical Support"
+  },
+  {
+    "ticketID": "TCKT-1003",
+    "title": "Request for new laptop",
+    "description": "A new team member has joined and needs a laptop setup with required tools.",
+    "status": "closed",
+    "priority": "low",
+    "createdAt": "2025-07-15T09:10:00Z",
+    "updatedAt": "2025-07-18T16:20:00Z",
+    "assignedTo": "Nimal Fernando",
+    "requestedBy": "hr@example.com",
+    "department": "HR"
+  },
+  {
+    "ticketID": "TCKT-1004",
+    "title": "VPN access issue",
+    "description": "User cannot connect to VPN while working remotely.",
+    "status": "open",
+    "priority": "high",
+    "createdAt": "2025-07-26T06:50:00Z",
+    "updatedAt": "2025-07-26T07:30:00Z",
+    "assignedTo": null,
+    "requestedBy": "chamara.r@example.com",
+    "department": "Network Support"
+  },
+  {
+    "ticketID": "TCKT-1005",
+    "title": "Printer not working on floor 3",
+    "description": "Multiple users report the network printer is unresponsive.",
+    "status": "in-progress",
+    "priority": "medium",
+    "createdAt": "2025-07-24T11:00:00Z",
+    "updatedAt": "2025-07-25T09:30:00Z",
+    "assignedTo": "Dilani Karunaratne",
+    "requestedBy": "helpdesk@example.com",
+    "department": "Facilities"
+  },
+  {
+    "ticketID": "TCKT-1006",
+    "title": "Software license expired",
+    "description": "Photoshop license expired; need renewal to continue work.",
+    "status": "open",
+    "priority": "high",
+    "createdAt": "2025-07-25T14:20:00Z",
+    "updatedAt": "2025-07-25T15:10:00Z",
+    "assignedTo": "Lasith Jayawardena",
+    "requestedBy": "design.team@example.com",
+    "department": "Procurement"
+  },
+  {
+    "ticketID": "TCKT-1007",
+    "title": "Slow internet in conference room",
+    "description": "Video calls are frequently dropping in the main conference room.",
+    "status": "open",
+    "priority": "medium",
+    "createdAt": "2025-07-26T08:00:00Z",
+    "updatedAt": "2025-07-26T08:30:00Z",
+    "assignedTo": null,
+    "requestedBy": "operations@example.com",
+    "department": "Network Support"
+  },
+  {
+    "ticketID": "TCKT-1008",
+    "title": "Request access to payroll system",
+    "description": "Finance manager needs access to review staff salaries and benefits.",
+    "status": "closed",
+    "priority": "high",
+    "createdAt": "2025-07-16T09:45:00Z",
+    "updatedAt": "2025-07-17T11:10:00Z",
+    "assignedTo": "IT Admin",
+    "requestedBy": "finance@example.com",
+    "department": "Finance"
+  },
+  {
+    "ticketID": "TCKT-1009",
+    "title": "Broken keyboard",
+    "description": "User's keyboard keys are stuck and unusable.",
+    "status": "in-progress",
+    "priority": "low",
+    "createdAt": "2025-07-23T13:00:00Z",
+    "updatedAt": "2025-07-24T10:00:00Z",
+    "assignedTo": "Tharindu De Silva",
+    "requestedBy": "kasun.r@example.com",
+    "department": "IT Support"
+  },
+  {
+    "ticketID": "TCKT-1010",
+    "title": "Security camera offline",
+    "description": "The main entrance security feed is unavailable.",
+    "status": "open",
+    "priority": "critical",
+    "createdAt": "2025-07-26T05:30:00Z",
+    "updatedAt": "2025-07-26T06:00:00Z",
+    "assignedTo": null,
+    "requestedBy": "security@example.com",
+    "department": "Security"
+  }
+]
